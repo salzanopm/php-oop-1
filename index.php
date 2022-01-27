@@ -48,7 +48,7 @@ error_reporting(E_ALL);
     $the_karate_kid_part_III->rate = '9.2';
 
     $the_karate_kid_part_IV = new Movie('The Karate Kid part IV', 'Christopher Cain');
-    $the_karate_kid_part_IV->year = 'Agosto 1994';
+    $the_karate_kid_part_IV->year = '1994';
     $the_karate_kid_part_IV->rate = '9.2';
 ?>
 
