@@ -59,9 +59,18 @@ class Movie {
     <title>php-oop-1</title>
 </head>
 <body>
-    <h1>
+    <h2>
+        <?php echo $the_karate_kid->getFullMovieName() ?>
+    </h2>
+    <h2>
+        <?php echo $the_karate_kid_part_II->getFullMovieName() ?>
+    </h2>
+    <h2>
+        <?php echo $the_karate_kid_part_III->getFullMovieName() ?>
+    </h2>
+    <h2>
         <?php echo $the_karate_kid_part_IV->getFullMovieName() ?>
-    </h1>
+    </h2>
 </body>
 </html>
 
