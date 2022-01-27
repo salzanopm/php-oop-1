@@ -28,7 +28,7 @@ error_reporting(E_ALL);
 
         // ritorna presentazione completa del Film
         public function getFullMovieName() {
-            return $this->title . ' diretto da ' . $this->director . ' uscito nel ' . $this->year . ' con un punteggio di ' . $this->rate;
+            return $this->title . ' diretto da ' . $this->director . ' uscito nell\'anno ' . $this->year . ' con un punteggio di ' . $this->rate;
         }
     }
 ?>
